@@ -17,7 +17,7 @@ A **production-ready AI system** combining **semantic search (Pinecone)**, **kno
 ## 🛠️ Tech Stack
 
 - 🧬 Embeddings: SentenceTransformer (all-MiniLM-L6-v2, 384 dim)
-- 📊 Vector DB: Pinecone (Serverless GCP us-east-1)
+- 📊 Vector DB: Pinecone (Serverless AWS us-east-1)
 - 🗂️ Graph DB: Neo4j (Community Edition / Docker)
 - 🤖 LLM: Orca-Mini (2 GB VRAM) via Ollama
 - 🐍 Language: Python 3.8+
