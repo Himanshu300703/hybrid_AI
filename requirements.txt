@@ -1,7 +1,13 @@
-neo4j==5.9.0
-openai==1.0.0
-pinecone-client==2.2.0
-pyvis==0.3.1
-networkx==3.1
-tqdm
-python-dotenv
+# Core Dependencies
+pinecone-client>=3.0.0
+neo4j>=5.0.0
+sentence-transformers>=2.2.0
+ollama>=0.1.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+
+# For graph visualization
+pyvis>=0.3.2
+networkx>=3.0
